@@ -9,7 +9,15 @@ Although self-contained, the server is really a small wrapper around the library
 
 ## Installation
 
-A `Dockerfile` is available if you would rather just build a container and run it.
+### With Docker
+
+A `Dockerfile` is available if you would rather just build a container and run it. To run it, you can do the following:
+
+`docker build -t ktas .`
+
+`docker run -d -p 4001:4001 ktas`
+
+### Without Docker
 
 If you want to manually install it, you first must make sure you have NodeJS installed. All other dependencies should be self-contained.
 
@@ -21,8 +29,8 @@ Once the code is checked out, run
 
 ## Testing
 
-To test the code, run
+To test the code, manually install it and then run
 
 `npm run test`
 
-This will build the project and then use Mocha to test the generated Javascript. The tests can be found in `./src/tests` or `./build/tests`
+This will build the project and then use Mocha to test the generated Javascript

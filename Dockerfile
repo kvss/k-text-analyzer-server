@@ -4,7 +4,7 @@ RUN yum -y update \
 
 WORKDIR /
 
-RUN mkdir /app \
+RUN echo "Checking out" && mkdir /app \
     && git clone https://github.com/kvss/k-text-analyzer-server.git /app
 
 WORKDIR /app/src
