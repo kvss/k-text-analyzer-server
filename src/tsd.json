@@ -1,0 +1,48 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "mime/mime.d.ts": {
+      "commit": "c6c068935a58aa58087a309740bcf933600140b8"
+    },
+    "serve-static/serve-static.d.ts": {
+      "commit": "c6c068935a58aa58087a309740bcf933600140b8"
+    },
+    "express/express.d.ts": {
+      "commit": "c6c068935a58aa58087a309740bcf933600140b8"
+    },
+    "node/node.d.ts": {
+      "commit": "c42b2ba16cc7f06869be1934ae829861296c2323"
+    },
+    "express-serve-static-core/express-serve-static-core.d.ts": {
+      "commit": "c6c068935a58aa58087a309740bcf933600140b8"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "c6c068935a58aa58087a309740bcf933600140b8"
+    },
+    "async/async.d.ts": {
+      "commit": "c6c068935a58aa58087a309740bcf933600140b8"
+    },
+    "body-parser/body-parser.d.ts": {
+      "commit": "c6c068935a58aa58087a309740bcf933600140b8"
+    },
+    "mocha/mocha.d.ts": {
+      "commit": "c6c068935a58aa58087a309740bcf933600140b8"
+    },
+    "supertest/supertest.d.ts": {
+      "commit": "c42b2ba16cc7f06869be1934ae829861296c2323"
+    },
+    "superagent/superagent.d.ts": {
+      "commit": "c42b2ba16cc7f06869be1934ae829861296c2323"
+    },
+    "request/request.d.ts": {
+      "commit": "c42b2ba16cc7f06869be1934ae829861296c2323"
+    },
+    "form-data/form-data.d.ts": {
+      "commit": "c42b2ba16cc7f06869be1934ae829861296c2323"
+    }
+  }
+}
