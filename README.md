@@ -27,6 +27,27 @@ Once the code is checked out, run
 
 `tsd install`
 
+## Usage
+
+Once running, the server only exposes a single endpoint that must be reached with a POST HTTP request:
+
+POST /
+
+The body of the request should be a `x-www-form-urlencoded` body with a "text" key, similar to:
+
+`text=sample`
+
+The return will have the following shape:
+
+```
+{
+  score: number,
+  input: the input string,
+  warningGenerated: true if a warning was generated, false otherwise,
+  warning: the warning message if there is one, false otherwise 
+}
+```
+
 ## Testing
 
 To test the code, manually install it and then run
