@@ -4,7 +4,7 @@
   "description": "A text parser for risk analysis with various categories of risk weights",
   "main": "app.js",
   "scripts": {
-    "build": "rm -r build && tsc",
+    "build": "rm -rf build && tsc",
     "start": "npm run build && ./node_modules/forever/bin/forever build/app.js",
     "test": "npm run lint && npm run build && mocha build/tests/**.js",
     "lint": "tslint --config tslint.json src/**/*.ts"
